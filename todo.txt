@@ -1,0 +1,4 @@
+check if array has 4 to 6 dice rolls in it.
+check if number is actually 1-6...meaning a dice number
+check provided test cases.
+case for empty array
