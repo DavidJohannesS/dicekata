@@ -21,3 +21,4 @@ DiceGame.prototype.add=function(array)
         }
       return sum;
 }
+//or return array.reduce((a,b))=>a+(b&1?b-1:0),0);
