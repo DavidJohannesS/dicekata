@@ -38,3 +38,8 @@ FindAlf.prototype.add=function(string)
     // Return the spaceship's coordinates
     return `[${xPos},${yPos}]`;
 };
+function DiceGame(){}
+DiceGame.prototype.add=function(array)
+{
+      return 0;
+}
