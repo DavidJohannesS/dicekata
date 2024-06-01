@@ -18,4 +18,10 @@ describe('DiceGame',function(){
       it('return to high if array higher than 6 dice',function(){
         expect(test.add([1,2,3,4,5,6,1])).toEqual(-1);
       });
+      it('return "Not a valid dice" for numbers higher than 6',function(){
+        expect(test.add([1,7,6,9])).toEqual(-1);
+      });
+      it('return "Not a valid dice" for negative numbers',function(){
+        expect(test.add([-1,-2,3,4])).toEqual(-1);
+      });
 });
