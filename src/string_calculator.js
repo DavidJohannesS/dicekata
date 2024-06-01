@@ -1,5 +1,5 @@
 function DiceGame(){}
 DiceGame.prototype.add=function(array)
 {
-      return 0;
+      if(array.length==0){return -1;}
 }
