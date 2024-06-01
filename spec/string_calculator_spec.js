@@ -24,4 +24,5 @@ describe('DiceGame',function(){
       it('return "Not a valid dice" for negative numbers',function(){
         expect(test.add([-1,-2,3,4])).toEqual(-1);
       });
+
 });

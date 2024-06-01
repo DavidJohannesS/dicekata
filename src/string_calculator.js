@@ -11,4 +11,13 @@ DiceGame.prototype.add=function(array)
               {return -1;}
             }
         }
+      let sum = 0;
+      for(let i = 0; i < array.length; i++)
+        {
+          if (array[i] % 2 != 0)
+            {
+              sum += array[i] - 1;
+            }
+        }
+      return sum;
 }
